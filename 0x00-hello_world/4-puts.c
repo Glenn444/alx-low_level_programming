@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/** Returns 0 success
- *  main - Entry point
- */
+/* main - start of function */
 int main(void)
 {
 		puts("\"Programming is like building a multilingual puzzle");
