@@ -5,7 +5,7 @@
  *
  * Return: Always return 0
  */
-int main()
+int main(void)
 {
 	char alpha;
 
@@ -13,7 +13,6 @@ int main()
 	{
 		putchar(alpha);
 	}
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
