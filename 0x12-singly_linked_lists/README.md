@@ -1,1 +1,0 @@
-Learning singly linked lists
