@@ -1,15 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
-* main - Prints the first argument of a function
-* @argc - argument counter
-* @argv - argument vector
-* Returns - 0 
-**/
-int main(int argc, char **argv)
+  * main - Prints its name
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
+int main(int argc, char *argv[])
 {
-	while (argc--);
-		printf("%s\n", *argv++);
+	(void) argc;
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
+
