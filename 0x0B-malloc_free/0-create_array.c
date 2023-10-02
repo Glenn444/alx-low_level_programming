@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
 * create_array - creates an array of char
-* @size - size of the array
-* @c - char assigned to the array
+* @size: size of the array
+* @c: char assigned to the array
 *
 * Return: pointer to array
 **/
