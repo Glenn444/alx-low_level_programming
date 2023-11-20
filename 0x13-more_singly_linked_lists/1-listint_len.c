@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include <stdio.h>
 #include "lists.h"
 /**
 * listint_len - number of element in a list
@@ -7,7 +7,7 @@
 **/
 size_t listint_len(const listint_t *h)
 {
-	size_t count = 0;
+	int count = 0;
 
 	while (h != NULL)
 	{
