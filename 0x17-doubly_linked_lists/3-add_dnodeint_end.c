@@ -1,6 +1,9 @@
 #include "lists.h"
 /**
-*
+*add_dnodeint_end - add new node to the end of a dlistint_t list
+*@head: pointer to the head of the pointer
+*@n: integer data
+* Return: pointer to the new node
 */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -10,7 +13,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new_node = (struct dlistint_s *)malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	new_node->n = n;
